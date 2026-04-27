@@ -19,7 +19,7 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render site
-        run: quarto render Data-Visualization-Portfolio
+        run: quarto render
 
       - name: Publish to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
